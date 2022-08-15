@@ -1,147 +1,56 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>CSS Cheat Sheet</title>
-    <link rel="stylesheet" href="css/Style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="box-1">
-        <h1>Hello World</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-          neque excepturi! Beatae aut molestiae odit corrupti fugiat, alias
-          eligendi consequatur totam eius, sequi ea, expedita ipsum qui quis
-          modi. Repellat.
-        </p>
+    <header id="main-header">
+      <div class="container">
+        <h1>My Website</h1>
       </div>
+    </header>
 
-      <div class="box-2">
-        <h1>Goodbye World</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-          neque excepturi! Beatae aut molestiae odit corrupti fugiat, alias
-          eligendi consequatur totam eius, sequi ea, expedita ipsum qui quis
-          modi. Repellat.
-        </p>
-        <a class="button" href="">Read More</a>
-      </div>
-
-      <div class="categories">
-        <h2>Categories</h2>
+    <nav id="navbar">
+      <div class="container">
         <ul>
-          <li>
-            <a
-              href="https://www.bing.com/ck/a?!&&p=9ccd3605c5ebdb64JmltdHM9MTY2MDU1ODkzNCZpZ3VpZD0yOWM3MWE2NC0xZjJjLTQxZGYtOWFiNi0yZTI2OGQwMmY3NDYmaW5zaWQ9NTU0MQ&ptn=3&hsh=3&fclid=211b0aef-1c84-11ed-a923-8a3c8b11766c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1uZXZlcitnb25uYStnaXZlK3lvdSt1cCZ2aWV3PWRldGFpbCZtaWQ9NEU3QjFDMEY4RTY3RTlGN0IxMzY0RTdCMUMwRjhFNjdFOUY3QjEzNiZGT1JNPVZJUkUwJnJ1PSUyZnNlYXJjaCUzZnElM2RuZXZlciUyYmdvbm5hJTJiZ2l2ZSUyYnlvdSUyYnVwJTI2Y3ZpZCUzZDE3M2M2OTNiNTFhYjRlZGY4OWY3MTdlZWU2MzAyMjE4JTI2YXFzJTNkZWRnZS4zLjY5aTU3ajBsMmo0NmowbDUuMzAzNWowajElMjZwZ2x0JTNkNDMlMjZGT1JNJTNkQU5OVEExJTI2UEMlM2RBU1RT&ntb=1"
-            ></a
-            >Category 1
-          </li>
-          <li>
-            <a
-              href="https://www.bing.com/ck/a?!&&p=9ccd3605c5ebdb64JmltdHM9MTY2MDU1ODkzNCZpZ3VpZD0yOWM3MWE2NC0xZjJjLTQxZGYtOWFiNi0yZTI2OGQwMmY3NDYmaW5zaWQ9NTU0MQ&ptn=3&hsh=3&fclid=211b0aef-1c84-11ed-a923-8a3c8b11766c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1uZXZlcitnb25uYStnaXZlK3lvdSt1cCZ2aWV3PWRldGFpbCZtaWQ9NEU3QjFDMEY4RTY3RTlGN0IxMzY0RTdCMUMwRjhFNjdFOUY3QjEzNiZGT1JNPVZJUkUwJnJ1PSUyZnNlYXJjaCUzZnElM2RuZXZlciUyYmdvbm5hJTJiZ2l2ZSUyYnlvdSUyYnVwJTI2Y3ZpZCUzZDE3M2M2OTNiNTFhYjRlZGY4OWY3MTdlZWU2MzAyMjE4JTI2YXFzJTNkZWRnZS4zLjY5aTU3ajBsMmo0NmowbDUuMzAzNWowajElMjZwZ2x0JTNkNDMlMjZGT1JNJTNkQU5OVEExJTI2UEMlM2RBU1RT&ntb=1"
-            ></a
-            >Category 2
-          </li>
-          <li>
-            <a
-              href="https://www.bing.com/ck/a?!&&p=9ccd3605c5ebdb64JmltdHM9MTY2MDU1ODkzNCZpZ3VpZD0yOWM3MWE2NC0xZjJjLTQxZGYtOWFiNi0yZTI2OGQwMmY3NDYmaW5zaWQ9NTU0MQ&ptn=3&hsh=3&fclid=211b0aef-1c84-11ed-a923-8a3c8b11766c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1uZXZlcitnb25uYStnaXZlK3lvdSt1cCZ2aWV3PWRldGFpbCZtaWQ9NEU3QjFDMEY4RTY3RTlGN0IxMzY0RTdCMUMwRjhFNjdFOUY3QjEzNiZGT1JNPVZJUkUwJnJ1PSUyZnNlYXJjaCUzZnElM2RuZXZlciUyYmdvbm5hJTJiZ2l2ZSUyYnlvdSUyYnVwJTI2Y3ZpZCUzZDE3M2M2OTNiNTFhYjRlZGY4OWY3MTdlZWU2MzAyMjE4JTI2YXFzJTNkZWRnZS4zLjY5aTU3ajBsMmo0NmowbDUuMzAzNWowajElMjZwZ2x0JTNkNDMlMjZGT1JNJTNkQU5OVEExJTI2UEMlM2RBU1RT&ntb=1"
-            ></a
-            >Category 3
-          </li>
-          <li>
-            <a
-              href="https://www.bing.com/ck/a?!&&p=9ccd3605c5ebdb64JmltdHM9MTY2MDU1ODkzNCZpZ3VpZD0yOWM3MWE2NC0xZjJjLTQxZGYtOWFiNi0yZTI2OGQwMmY3NDYmaW5zaWQ9NTU0MQ&ptn=3&hsh=3&fclid=211b0aef-1c84-11ed-a923-8a3c8b11766c&u=a1L3ZpZGVvcy9zZWFyY2g_cT1uZXZlcitnb25uYStnaXZlK3lvdSt1cCZ2aWV3PWRldGFpbCZtaWQ9NEU3QjFDMEY4RTY3RTlGN0IxMzY0RTdCMUMwRjhFNjdFOUY3QjEzNiZGT1JNPVZJUkUwJnJ1PSUyZnNlYXJjaCUzZnElM2RuZXZlciUyYmdvbm5hJTJiZ2l2ZSUyYnlvdSUyYnVwJTI2Y3ZpZCUzZDE3M2M2OTNiNTFhYjRlZGY4OWY3MTdlZWU2MzAyMjE4JTI2YXFzJTNkZWRnZS4zLjY5aTU3ajBsMmo0NmowbDUuMzAzNWowajElMjZwZ2x0JTNkNDMlMjZGT1JNJTNkQU5OVEExJTI2UEMlM2RBU1RT&ntb=1"
-            ></a
-            >Category 4
-          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </div>
-      <form class="my-form">
-        <div class="form-group">
-          <label>Name: </label>
-          <input type="text" name="name" id="name" />
-        </div>
-        <div class="form-group">
-          <label>Email: </label>
-          <input type="text" name="email" id="email" />
-        </div>
-        <div class="form-group">
-          <label>Message: </label>
-          <textarea name="message"></textarea>
-        </div>
-        <input class="button" type="submit" value="Submit" name="" />
-      </form>
-      <div class="block">
-        <h3>Heading</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, iusto
-          sit, sint nostrum, suscipit inventore aliquid distinctio ipsum non
-          fugiat sunt quod nulla quidem deleniti sequi numquam obcaecati nam
-          repellat.
-        </p>
-      </div>
-      <div class="block">
-        <h3>Heading</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, iusto
-          sit, sint nostrum, suscipit inventore aliquid distinctio ipsum non
-          fugiat sunt quod nulla quidem deleniti sequi numquam obcaecati nam
-          repellat.
-        </p>
-      </div>
-      <div class="block">
-        <h3>Heading</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, iusto
-          sit, sint nostrum, suscipit inventore aliquid distinctio ipsum non
-          fugiat sunt quod nulla quidem deleniti sequi numquam obcaecati nam
-          repellat.
-        </p>
-      </div>
+    </nav>
 
-      <div class="clr"></div>
-      <div id="main-block">
-        <h3>Heading</h3>
+    <section id="showcase">
+      <div class="container">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+      </div>
+    </section>
+
+    <div class="container">
+      <section id="main">
+        <h1>Welcome</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, iusto
-          sit, sint nostrum, suscipit inventore aliquid distinctio ipsum non
-          fugiat sunt quod nulla quidem deleniti sequi numquam obcaecati nam
-          repellat.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aliquid
+          quae quod dolorem officia! Quaerat obcaecati laudantium facere,
+          aliquam, nihil quisquam non sunt, atque quod molestias expedita ullam?
+          Placeat, ut!
         </p>
-      </div>
-
-      <div id="sidebar">
+      </section>
+      <aside id="sidebar">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, iusto
-          sit, sint nostrum, suscipit inventore aliquid distinctio ipsum non
-          fugiat sunt quod nulla quidem deleniti sequi numquam obcaecati nam
-          repellat.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. At sit
+          voluptatem ad harum! Fugiat, quis!
         </p>
-      </div>
-
-      <div class="clr"></div>
-
-      <div class="p-box">
-        <h1>Hello</h1>
-        <h2>Goodbye</h2>
-      </div>
-
-      <ul class="my-list">
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-        <li>List Item</li>
-      </ul>
+      </aside>
     </div>
-    <!--./container-->
-
-    <a class="fix-me button" href="">Hello</a>
+    <footer id="main-footer">
+        <p>Copywight &copy; 2022 My Website</p>
+    </footer>
   </body>
 </html>
